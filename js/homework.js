@@ -35,14 +35,18 @@ let numbers1 = [10, 12, -9, 3, -1, 0, 15];
 var sum = 0;
 
 for(var x=0; x < numbers1.length; x++){
-    sum += parseInt(numbers1[x]);
-    console.log(sum)
+    if (numbers1[x] >=0 ){
+        sum += parseInt(numbers1[x]);     
+        console.log(sum)
+    }
 }
 
 let numbers2 = [3, 5, 7, 9, -10, 2, -22, -1] 
-var sum = 0;
+var sum2 = 0;
 
 for(var y=0; y < numbers2.length; y++){
-    sum += parseInt(numbers2[y]);
-    console.log(sum)
+    if (numbers1[y] >=0 ){
+    sum2 += parseInt(numbers2[y]);
+    console.log(sum2)
+    }
 }
